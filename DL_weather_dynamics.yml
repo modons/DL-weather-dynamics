@@ -1,0 +1,10 @@
+name: dlwd
+
+dependencies:
+  - python
+  - h5py
+  - numpy
+  - matplotlib
+  - cartopy
+  - pyyaml
+  
