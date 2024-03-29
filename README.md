@@ -2,7 +2,8 @@
 
 This repository contains the code used to generate results in the paper:
 
-Hakim, G. J., and S. Masanam, 2023: Dynamical tests of a deep-learning weather prediction model. arxiv.org/abs/2309.10867
+Hakim, G. J., and S. Masanam, 2023: Dynamical tests of a deep-learning weather prediction model. 
+arxiv.org/abs/2309.10867
 
 --
 
@@ -12,10 +13,10 @@ Quick start:
 git clone git@github.com:modons/DL-weather-dynamics.git
 
 1) set up the environment using conda and pip:
-conda env create -f DL_weather_dynamics.yml
-conda activate dlwd
-pip install onnxruntime-gpu
-pip install torch
+- conda env create -f DL_weather_dynamics.yml
+- conda activate dlwd
+- pip install onnxruntime-gpu
+- pip install torch
 
 2) download data (model weights, climatological fields, perturbation fields)
 - https://www.atmos.washington.edu/~hakim/DL_weather_dynamics/
