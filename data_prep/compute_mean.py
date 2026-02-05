@@ -78,10 +78,6 @@ for infile in dates:
 mean_pl=mean_pl/k_pl
 mean_sfc = mean_sfc/k_sfc
 print(mean_pl.shape,mean_sfc.shape)
-# -
-
-mean_pl=mean_pl/k_pl
-mean_sfc = mean_sfc/k_sfc
 
 # ERA5 lat,lon grid
 lat = 90 - np.arange(721) * 0.25
